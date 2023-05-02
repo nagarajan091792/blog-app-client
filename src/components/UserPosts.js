@@ -73,11 +73,11 @@ const UserPosts = () => {
     <>
       {isLoading ? <div><img src={img} alt='' style={{ marginLeft: 'auto', marginRight: 'auto', display: 'block', width: '50%' }} /></div>
         : <div className='container' style={{ marginTop: 50 }}>
-          <div className='row' style={{ alignContent: "center" }} >
+          <div className='row' >
 
             {user.map((e) => {
               return (
-                <div class="card text-center" style={{ width: "13rem", margin: 10,boxShadow:'10px 10px 10px #087474' }}>
+                <div class="card text-center mx-auto" style={{ width: "13rem", margin: 10,boxShadow:'10px 10px 10px #087474' }}>
                   <img class="card-img-top" style={{ height: '150px' }} src={e.imageURL} alt="blog" />
                   <div class="card-body">
                     <h5 class="card-title">{e.title}</h5>
