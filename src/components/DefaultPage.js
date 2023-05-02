@@ -39,7 +39,7 @@ const DefaultPage = () => {
         </Box>
       </Toolbar>
     </AppBar>
-    {isLoading?<div><img src={img} alt='' style={{marginLeft:'auto',marginRight:'auto',display:'block',width: '50%'}}/></div>
+    {isLoading?<div><img src={img} alt='' style={{marginLeft:'auto',marginRight:'auto',marginTop:'10%',display:'block',width: '50%'}}/></div>
 :
      <div className='container' style={{marginTop:50}}>
      <div className='row' >
