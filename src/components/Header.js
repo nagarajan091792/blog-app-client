@@ -30,7 +30,7 @@ const Header = () => {
       <Link style={{color:'white'}} to={`/portal/myPosts/${localStorage.getItem("id")}`} class="nav-link" onMouseOver={MouseOver} onMouseOut={MouseOut}>MY BLOGS</Link>
       <Link style={{color:'white'}} to='/portal/addPost' class="nav-link" onMouseOver={MouseOver} onMouseOut={MouseOut}>ADD BLOG</Link>
     </div>
-    <button type="button" class="btn btn-danger" style={{marginLeft:'auto'}} onClick={doLogout}>logout</button>
+    <button type="button" class="btn btn-danger" style={{marginLeft:'auto',borderRadius:20}} onClick={doLogout}>logout</button>
   </div>
 </nav>
     </div></div>
