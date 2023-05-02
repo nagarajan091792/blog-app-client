@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class ViewPost extends Component {
   render() {
     let style = {
-      marginTop: '45px',
+      marginTop: '80px',
       display: 'block',
       backgroundColor: 'rgba(0,0,0,0.8)'
     }
