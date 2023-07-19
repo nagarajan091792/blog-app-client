@@ -73,7 +73,7 @@ const AddPost = () => {
             value={formik.values.title}
             margin="none"
             variant="outlined"
-label='kkkkkk'
+label='Title'
             required
           />
           <InputLabel sx={labelStyle}>Content</InputLabel>
@@ -83,6 +83,7 @@ label='kkkkkk'
             value={formik.values.content}
             margin="none"
             variant="outlined"
+label='Content'
             required
           />
           <InputLabel sx={labelStyle}>ImageURL</InputLabel>
@@ -92,6 +93,7 @@ label='kkkkkk'
             value={formik.values.imageURL}
             margin="none"
             variant="outlined"
+label='Copy your image address'
             required
           />
 
