@@ -82,7 +82,7 @@ const AddPost = () => {
             onChange={formik.handleChange}
             value={formik.values.content}
             margin="none"
-            variant="Content"
+             variant="outlined"
             label='Content'
             required
           />
@@ -92,7 +92,7 @@ const AddPost = () => {
             onChange={formik.handleChange}
             value={formik.values.imageURL}
             margin="none"
-            variant="Copy your image address"
+            variant="outlined"
             label='Copy your image address'
             required
           />
