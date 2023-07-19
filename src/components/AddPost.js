@@ -82,7 +82,7 @@ label='Title'
             onChange={formik.handleChange}
             value={formik.values.content}
             margin="none"
-            variant="outlined"
+            variant="Content"
 label='Content'
             required
           />
