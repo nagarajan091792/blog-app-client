@@ -72,7 +72,7 @@ const AddPost = () => {
             onChange={formik.handleChange}
             value={formik.values.title}
             margin="none"
-            variant="Title"
+            variant="outlined"
             label='Title'
             required
           />
