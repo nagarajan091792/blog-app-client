@@ -61,12 +61,14 @@ const Signup = () => {
             label='Name'
              required/>
           <TextField          name="email"
-                              type='email'
                               onChange={formik.handleChange}
-                              value={formik.values.email} type='email' placeholder='Email' margin='dense' required/>
+                              value={formik.values.email} type='email' placeholder='Email' margin='dense' variant="outlined"
+            label='Email' required/>
           <TextField          name="password"
                               onChange={formik.handleChange}
-                              value={formik.values.password}  type='password' placeholder='Password' margin='dense' required/>
+                              value={formik.values.password}  type='password' placeholder='Password' margin='dense' 
+                                variant="outlined"
+            label='Password' required/>
          
           <Button type='submit' value='Signup' variant='contained' sx={{borderRadius:3, marginTop:3}}>Submit</Button>
           <ToastContainer />
