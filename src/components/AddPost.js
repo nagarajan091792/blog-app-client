@@ -73,10 +73,12 @@ const AddPost = () => {
             value={formik.values.title}
             margin="none"
             variant="outlined"
+            label="Outlined"
             required
           />
           <InputLabel sx={labelStyle} placeholder="Content">Content</InputLabel>
           <TextField
+label="Outlined"
             name="content"
             onChange={formik.handleChange}
             value={formik.values.content}
