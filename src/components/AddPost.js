@@ -73,12 +73,11 @@ const AddPost = () => {
             value={formik.values.title}
             margin="none"
             variant="outlined"
-            label="Title"
+label='kkkkkk'
             required
           />
-          <InputLabel sx={labelStyle} >Content</InputLabel>
+          <InputLabel sx={labelStyle}>Content</InputLabel>
           <TextField
-           label="Content"
             name="content"
             onChange={formik.handleChange}
             value={formik.values.content}
@@ -86,14 +85,13 @@ const AddPost = () => {
             variant="outlined"
             required
           />
-          <InputLabel sx={labelStyle}  >ImageURL</InputLabel>
+          <InputLabel sx={labelStyle}>ImageURL</InputLabel>
           <TextField
             name="imageURL"
             onChange={formik.handleChange}
             value={formik.values.imageURL}
             margin="none"
             variant="outlined"
-            label="Copy your image address"
             required
           />
 
