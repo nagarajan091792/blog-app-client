@@ -72,8 +72,8 @@ const AddPost = () => {
             onChange={formik.handleChange}
             value={formik.values.title}
             margin="none"
-            variant="outlined"
-label='Title'
+            variant="Title"
+            label='Title'
             required
           />
           <InputLabel sx={labelStyle}>Content</InputLabel>
@@ -83,7 +83,7 @@ label='Title'
             value={formik.values.content}
             margin="none"
             variant="Content"
-label='Content'
+            label='Content'
             required
           />
           <InputLabel sx={labelStyle}>ImageURL</InputLabel>
@@ -92,8 +92,8 @@ label='Content'
             onChange={formik.handleChange}
             value={formik.values.imageURL}
             margin="none"
-            variant="outlined"
-label='Copy your image address'
+            variant="Copy your image address"
+            label='Copy your image address'
             required
           />
 
