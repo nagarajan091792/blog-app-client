@@ -47,7 +47,7 @@ const DefaultPage = () => {
      {user.map((e) => {
              return (
  <div class="card text-center mx-auto" style={{width: "13rem",margin:10,boxShadow:'10px 10px 10px #087474'}}>
- <img class="card-img-top" src={e.imageURL} alt="blog"/>
+ <img class="card-img-top" style={{height:'150px'}} src={e.imageURL} alt="blog"/>
    <div class="card-body">
      <h5 class="card-title">{e.title}</h5>
      </div>
