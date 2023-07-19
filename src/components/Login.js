@@ -59,10 +59,12 @@ const Login = () => {
           {/* <TextField  placeholder='Name' margin='dense'/> */}
           <TextField type='email' placeholder='Email' margin='dense' name="email"
             onChange={formik.handleChange}
-            value={formik.values.email} required />
+            value={formik.values.email} variant="outlined"
+            label='Email' required />
           <TextField type='password' placeholder='Password' margin='dense' name="password"
             onChange={formik.handleChange}
-            value={formik.values.password} required />
+            value={formik.values.password} variant="outlined"
+            label='Password' required />
           <Button type='submit' value='Login' variant='contained' sx={{ borderRadius: 3, marginTop: 3 }}>Submit</Button>
           <ToastContainer />
           <Button LinkComponent={Link} to='/signup' sx={{ borderRadius: 3, marginTop: 3 }}>Create an Account</Button>
