@@ -72,8 +72,8 @@ const AddPost = () => {
             onChange={formik.handleChange}
             value={formik.values.title}
             margin="none"
-            variant="outlined"
-            label='Title'
+            label="Title" 
+           variant="outlined"
             required
           />
           <InputLabel sx={labelStyle} >Content</InputLabel>
