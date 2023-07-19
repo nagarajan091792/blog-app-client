@@ -66,34 +66,31 @@ const AddPost = () => {
           >
             Create your Blog
           </Typography>
-          <InputLabel sx={labelStyle}>Title</InputLabel>
+          <InputLabel sx={labelStyle} placeholder="Title">Title</InputLabel>
           <TextField
             name="title"
             onChange={formik.handleChange}
             value={formik.values.title}
             margin="none"
-            variant="Title"
-            label='Title'
+            variant="outlined"
             required
           />
-          <InputLabel sx={labelStyle}>Content</InputLabel>
+          <InputLabel sx={labelStyle} placeholder="Content">Content</InputLabel>
           <TextField
             name="content"
             onChange={formik.handleChange}
             value={formik.values.content}
             margin="none"
-            variant="Content"
-            label='Content'
+            variant="outlined"
             required
           />
-          <InputLabel sx={labelStyle}>ImageURL</InputLabel>
+          <InputLabel sx={labelStyle} placeholder="Copy your image address" >ImageURL</InputLabel>
           <TextField
             name="imageURL"
             onChange={formik.handleChange}
             value={formik.values.imageURL}
             margin="none"
-            variant="Copy your image address"
-            label='Copy your image address'
+            variant="outlined"
             required
           />
 
