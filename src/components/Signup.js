@@ -57,8 +57,11 @@ const Signup = () => {
           <TextField          name="username"
                               onChange={formik.handleChange}
                               value={formik.values.username}
-                              placeholder='Name' margin='dense' required/>
+                              placeholder='Name' margin='dense'variant="outlined"
+            label='Name'
+             required/>
           <TextField          name="email"
+                              type='email'
                               onChange={formik.handleChange}
                               value={formik.values.email} type='email' placeholder='Email' margin='dense' required/>
           <TextField          name="password"
